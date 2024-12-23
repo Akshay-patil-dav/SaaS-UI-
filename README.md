@@ -2,6 +2,9 @@
 ### Connection Notes web Notion.so : https://www.notion.so/invite/ac0722b44fd4746e1fc456cd47b923f04d534335
 
 
+
+## For setup use the given command ..
+# 
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
