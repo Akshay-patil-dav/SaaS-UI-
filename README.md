@@ -4,11 +4,11 @@
 
 
 ## For setup use the given Step :)
-### 1)  ** Step-1 ** First create a foler and open it , then open the CMD in the folder and pest this code for downlode the git projwct file 
+### 1)  Step-1 : First create a foler and open it , then open the CMD in the folder and pest this code for downlode the git projwct file 
 ```javascript
 git clone https://github.com/Akshay-patil-dav/SaaS-UI-.git
 ```
-### 2)  **Step-2**
+### 2)  Step-2 :
 
 # React + Vite
 
