@@ -9,8 +9,12 @@
 ```javascript
 git clone https://github.com/Akshay-patil-dav/SaaS-UI-.git
 ```
-### 2)  Step-2 :
-
+### 2)  Step-2 : 
+#### Use this command in CMD to get inter in the folder 
+```javascript
+cd Saas-YI-
+```
+      
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
