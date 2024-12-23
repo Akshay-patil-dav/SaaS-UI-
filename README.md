@@ -14,7 +14,12 @@ git clone https://github.com/Akshay-patil-dav/SaaS-UI-.git
 ```javascript
 cd Saas-UI-
 ```
-      
+
+ ### 3)  Step-3 : 
+#### Use this command in CMD to get install of node pakage folder 
+```javascript
+npm i
+```
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
