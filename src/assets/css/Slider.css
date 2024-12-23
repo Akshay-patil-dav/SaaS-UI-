@@ -1,0 +1,64 @@
+.slideNav {
+    background-color: rgb(255, 255, 255);
+    width: 250px;
+    height: 98%;
+    position: fixed;
+    margin: 10px;
+    border-radius: 10px;
+    border: 1px solid rgb(197, 197, 197);
+}
+
+.logo {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 2cm;
+}
+
+.logo>img {
+    width: 50px;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+    height: auto;
+    border-radius: 20px;
+}
+
+.logo>div>h6>b {
+    color: rgb(231, 150, 43);
+}
+
+.slide-men {
+    position: absolute;
+    left: -20px;
+}
+
+
+.link-men {
+    text-decoration: none;
+    padding: 5px 12px;
+    width: 225px;
+    border-radius: 8px;
+    color: black;
+}
+
+
+.link-men > svg , .link-men > h6{
+    margin: 3px 0px;
+} 
+.activ{
+    display: inline-flex; /* Use flexbox for alignment */
+    align-items: center; /* Vertically center content */
+    background-color: #333; /* Dark background */
+    color: white; /* White text */
+    padding: 10px 16px; /* Adjust padding as needed */
+    border-radius: 8px; /* Rounded corners */
+    cursor: pointer; /* Indicate it's clickable */
+    font-family: sans-serif; /* Use a standard font */
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+
+}
+.link-men-hov:hover{
+    background-color:rgb(247, 247, 247);
+    color: rgb(20, 34, 73);
+    border-radius: 8px;
+}

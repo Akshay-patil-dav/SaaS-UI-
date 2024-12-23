@@ -1,0 +1,11 @@
+@import url("./Slider.css");
+.fx{
+    display: flex;
+}
+.logohed{
+    color: rgb(37, 48, 112);
+    font-family: Arial black;
+}
+.biologohed{
+    color: rgb(255, 136, 0);
+}
