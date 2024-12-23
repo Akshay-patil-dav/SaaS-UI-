@@ -4,7 +4,10 @@
 
 
 ## For setup use the given command ..
-### First create a foler and open it , then open the CMD in the folder and pest this code for downlode the git projwct file : git clone https://github.com/Akshay-patil-dav/SaaS-UI-.git
+### First create a foler and open it , then open the CMD in the folder and pest this code for downlode the git projwct file :
+```javascript
+git clone https://github.com/Akshay-patil-dav/SaaS-UI-.git
+```
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
