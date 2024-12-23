@@ -20,6 +20,21 @@ cd Saas-UI-
 ```javascript
 npm i
 ```
+
+ ### 4)  Step-4 : 
+#### Use this command in CMD to Run the React file  
+```javascript
+npm run dev
+```
+
+ ### 5)  Step-5 : 
+#### Copy the link and paste it on browser for live view
+```javascript
+[npm run dev](http://localhost:5174/)
+```
+###### ![image](https://github.com/user-attachments/assets/465682a5-6954-4589-bc4d-cffcedae6bcd)
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
