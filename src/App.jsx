@@ -1,5 +1,5 @@
 import React from 'react'
-import DashBoard from './pages/DashBoard'
+import DashBoard from './Layout/pages/DashBoard';
 import "./App.css";
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/css/bootstrap.css';
