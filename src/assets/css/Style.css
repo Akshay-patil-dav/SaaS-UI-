@@ -19,6 +19,11 @@ body {
 .none {
     display: none;
 }
-.submenuul{
+
+.submenuul,
+.submenuul-commerce,
+.submenuul-CRM,
+.submenuul-project,
+.submenuul-Customer {
     display: none;
 }

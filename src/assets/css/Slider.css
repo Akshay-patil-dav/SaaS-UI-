@@ -1,11 +1,35 @@
 .slidebar {
     position: fixed;
-    width: 250px;
+    width: 257px;
     height: 100%;
     border-right: 0.5px solid rgb(196, 196, 196);
     background-repeat: no-repeat;
     background-color: white;
+  
 }
+
+.slidebar:hover{
+    overflow-x: hidden;
+}
+
+.slidebar::-webkit-scrollbar {
+    width: 5px;
+   
+  }
+
+  .slidebar::-webkit-scrollbar-track {
+    background: #e2e2e2;
+    border-radius: 10px;
+  }
+  
+  /* Handle */
+  .slidebar::-webkit-scrollbar-thumb {
+    background: #0099ff;
+    border-radius: 10px;
+  }
+  
+ 
+
 
 .slidebar>nav>ul>li> div >a {
     text-decoration: none;
