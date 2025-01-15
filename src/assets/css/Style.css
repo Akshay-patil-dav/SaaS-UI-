@@ -1,6 +1,11 @@
 @import url("./Slider.css");
 @import url("./Navigationbar.css");
 
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 *,
 html,
 body {

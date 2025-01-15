@@ -5,7 +5,7 @@
   font-weight: 400;
   background-color:rgb(241, 241, 241);
 }
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
