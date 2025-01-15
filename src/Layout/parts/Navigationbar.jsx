@@ -4,9 +4,26 @@ export default function Navigationbar() {
   return (
     <>
       <section >
-          <nav className='navigationbar'>
-
-          </nav>
+        <nav className='navigationbar'>
+          <button id='Menu_Slider' className='mx-3 mt-2 none' >
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0 0 48 48">
+              <linearGradient id="C9TYDZarys49lHDy~k4THa_eofQ1g5BaAx6_gr1" x1="12.373" x2="34.611" y1="-154.373" y2="-176.611" gradientTransform="matrix(1 0 0 -1 0 -154)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#0077d2"></stop><stop offset="1" stop-color="#0b59a2"></stop></linearGradient><path fill="url(#C9TYDZarys49lHDy~k4THa_eofQ1g5BaAx6_gr1)" d="M42,15H6c-1.65,0-3-1.35-3-3v0c0-1.65,1.35-3,3-3h36c1.65,0,3,1.35,3,3v0	C45,13.65,43.65,15,42,15z"></path><linearGradient id="C9TYDZarys49lHDy~k4THb_eofQ1g5BaAx6_gr2" x1="12.373" x2="34.611" y1="-166.373" y2="-188.611" gradientTransform="matrix(1 0 0 -1 0 -154)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#0077d2"></stop><stop offset="1" stop-color="#0b59a2"></stop></linearGradient><path fill="url(#C9TYDZarys49lHDy~k4THb_eofQ1g5BaAx6_gr2)" d="M42,27H6c-1.65,0-3-1.35-3-3v0c0-1.65,1.35-3,3-3h36c1.65,0,3,1.35,3,3v0	C45,25.65,43.65,27,42,27z"></path><linearGradient id="C9TYDZarys49lHDy~k4THc_eofQ1g5BaAx6_gr3" x1="12.373" x2="34.611" y1="-178.373" y2="-200.611" gradientTransform="matrix(1 0 0 -1 0 -154)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#0077d2"></stop><stop offset="1" stop-color="#0b59a2"></stop></linearGradient><path fill="url(#C9TYDZarys49lHDy~k4THc_eofQ1g5BaAx6_gr3)" d="M42,39H6c-1.65,0-3-1.35-3-3v0c0-1.65,1.35-3,3-3h36c1.65,0,3,1.35,3,3v0	C45,37.65,43.65,39,42,39z"></path>
+            </svg>
+          </button>
+          <div className='account-user ' >
+            <div className="dropdown">
+              <button className="btn border-0  bg-dark bg-gradient" type="button" data-bs-toggle="dropdown" aria-expanded="false" style={{ display: 'flex' }} >
+                <img src='https://img.freepik.com/free-psd/3d-rendering-hair-style-avatar-design_23-2151869153.jpg' className='loguser' />
+                <b className='mx-2 text-white'>Akshata</b>
+              </button>
+              <ul className="dropdown-menu">
+                <li><a className="dropdown-item" href="#">Action</a></li>
+                <li><a className="dropdown-item" href="#">Another action</a></li>
+                <li><a className="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
       </section>
     </>
   )

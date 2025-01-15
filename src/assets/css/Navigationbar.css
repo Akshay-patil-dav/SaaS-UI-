@@ -1,6 +1,30 @@
-.navigationbar{
+.navigationbar {
     background-color: rgb(255, 255, 255);
     width: 100%;
-    height: 1.7cm;
+    height: 1.2cm;
     border-bottom: 0.5px solid rgb(196, 196, 196);
+}
+
+.account-user {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+.account-user > div > button{
+    border-radius: 100px 0px 0px 100px;
+    width: 150px;
+}
+
+.account-user > div > button > b {
+    position: relative;
+    top: 2px;
+    left: 4px;
+}
+
+/* ***************** */
+.loguser {
+    width: 25%;
+    border-radius: 50%;
+    object-fit:contain;
 }
