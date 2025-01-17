@@ -7,6 +7,7 @@ export default function Slidebar() {
   return (
     <>
       <section className='slidebar '>
+      <br /><br />
         <nav className='mt-3'>
           <ul>
             <li className=' text-bl fx' >

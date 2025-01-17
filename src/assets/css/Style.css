@@ -1,5 +1,7 @@
 @import url("./Slider.css");
 @import url("./Navigationbar.css");
+@import url("./Responcive/Nav.css");
+@import url("./Dashboard.css");
 
 
 @tailwind base;
@@ -31,4 +33,8 @@ body {
 .submenuul-project,
 .submenuul-Customer {
     display: none;
+}
+
+input:focus{
+    outline: none;
 }
