@@ -1,0 +1,105 @@
+
+/* Custom styles for the dashboard */
+.dashboard-container {
+    margin: 40px 50px;
+    
+    
+  }
+
+  .grid-chart{
+    display: grid;
+    background-color: transparent;
+   grid-template-columns: repeat(auto-fit, minmax(20px, 1fr));
+   gap: 20px;
+   height: 50px;
+   max-width: 1500px;
+  }
+  
+  .dashboard-card {
+    @apply bg-white rounded-lg shadow-lg p-6 w-full max-w-3xl space-y-6;
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    height: 445px;
+  }
+  
+  .graph-container {
+    @apply bg-gray-900 rounded-lg p-6 h-48;
+    background: linear-gradient(180deg, #1a1f2c 0%, #121721 100%);
+     background-image: url(https://img.pikbest.com/ai/illus_our/20230428/925c47efc208a8d48be3c96bbc2fe691.jpg!w700wp);
+     background-repeat: no-repeat;
+     /* background-size: auto; */
+     background-size: 1000px 200px;
+  }
+  
+  .graph-bar {
+    @apply w-full bg-white rounded-sm transition-all duration-300;
+    animation: growBar 1s ease-out forwards;
+    opacity: 0.9;
+  }
+  
+  .graph-bar:hover {
+    @apply opacity-100;
+    transform: scaleY(1.02);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+  }
+  
+  .stat-card-chart {
+    @apply flex items-center gap-4;
+    width: 150px;
+    transition: transform 0.2s ease;
+    background-color: transparent;
+    position: relative;
+    bottom: 10px;
+  }
+  
+  .stat-card-chart:hover {
+    transform: translateY(-2px);
+  }
+  
+  .stat-icon-chart {
+    @apply p-3 rounded-lg;
+    background-color: transparent;
+    border: 1px solid;;
+    padding: 20px;
+    transition: all 0.3s ease;
+  }
+  
+  .stat-icon-chart:hover {
+    transform: rotate(5deg);
+  }
+  
+  .stat-value-chart {
+    @apply text-2xl font-bold;
+    background: linear-gradient(90deg, #2d3748 0%, #1a202c 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+    top: 5px;
+  }
+  
+  .growth-indicator {
+    @apply text-green-500 text-sm;
+    animation: fadeIn 0.5s ease-out;
+  }
+  
+  @keyframes growBar {
+    from {
+      transform: scaleY(0);
+      opacity: 0;
+    }
+    to {
+      transform: scaleY(1);
+      opacity: 0.9;
+    }
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(5px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }

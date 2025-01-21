@@ -2,7 +2,7 @@
 @import url("./Navigationbar.css");
 @import url("./Responcive/Nav.css");
 @import url("./Dashboard.css");
-
+@import url("./BoxBarTopScrole.css");
 
 @tailwind base;
 @tailwind components;
