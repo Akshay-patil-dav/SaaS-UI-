@@ -1,3 +1,4 @@
+![Uploading image.png…]()
 
 ### Connection Notes web Notion.so : https://www.notion.so/invite/ac0722b44fd4746e1fc456cd47b923f04d534335
 
