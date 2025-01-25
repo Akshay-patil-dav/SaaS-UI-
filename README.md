@@ -1,5 +1,3 @@
-![image](https://github.com/user-attachments/assets/f9536134-03b6-40ee-867d-72fe88079d7a)
-
 
 ### Connection Notes web Notion.so : https://www.notion.so/invite/ac0722b44fd4746e1fc456cd47b923f04d534335
 

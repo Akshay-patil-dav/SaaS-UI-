@@ -1,7 +1,7 @@
 import Chartbox from "./Subpart/Chartbox";
-import ProductChart1 from "./Subpart/ProductChart1";
 import ProgressBar from "./Subpart/ProgressBar";
 import WebsiteViews from "./Subpart/WebsiteViews";
+import Subcrip from "./Subpart/Subcrip";
 
 export default function Rightndextop() {
   return (
@@ -118,11 +118,14 @@ export default function Rightndextop() {
 
           <div className="chart fx ">
 
-            <ProductChart1  />
-
+            {/* <ProductChart1  /> */}
+           {/* <Subcrip /> */}
           </div>
+          
         </section>
+  
       </div>
+      <Subcrip />
     </>
   )
 }

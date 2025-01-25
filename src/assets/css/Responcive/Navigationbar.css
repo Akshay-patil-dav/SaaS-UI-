@@ -1,0 +1,88 @@
+.navigationbar {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 1.2cm;
+    border-bottom: 0.5px solid rgb(196, 196, 196);
+    position: fixed;
+    
+}
+
+.logo{
+    width: 5%;
+    border-radius: 50%;
+    object-fit:contain;
+}
+
+
+.logopro{
+    position: absolute;
+    left: 0;
+    top: -5px;
+}
+
+
+.logoname{
+    position: absolute;
+    left: 60px;
+    top: 6px;
+}
+
+
+.logopro > button > b {
+    position: relative;
+    top: 2px;
+    left: 4px;
+}
+
+
+.account-user {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+.account-user > div > button{
+    border-radius: 0px 0px 0px 0px;
+    width: 150px;
+}
+
+.account-user > div > button > b {
+    position: relative;
+    top: 2px;
+    left: 4px;
+}
+
+/* ***************** */
+.loguser {
+    width: 25%;
+    border-radius: 50%;
+    object-fit:contain;
+}
+
+
+
+/* *****************************************************************/
+
+.searchbox{
+    position: relative;
+    top: 5px;
+    left: 45vw;
+    width: 50px;
+}
+.search{
+    background-color: rgb(230, 230, 230);
+    padding: 3px 20px;
+    border-radius: 10px  0px 0px 10px;
+     position: relative;
+     width: 300px;
+     border: 1px solid black;
+}
+
+.search-btn{
+    background-color: red;
+    padding: 6.5px 15px;
+    position: relative;
+    border-radius: 0px 10px 10px 0px;
+    color: white;
+}
+
