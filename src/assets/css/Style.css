@@ -1,10 +1,11 @@
 @import url("./Slider.css");
 @import url("./Navigationbar.css");
-@import url("./Responcive/Nav.css");
 @import url("./Dashboard.css");
 @import url("./BoxBarTopScrole.css");
 @import url("./Progressvbar.css");
 @import url("./Progressbar1.css");
+@import url("./parts/WebsiteViews.css");
+@import url("./Responcive/ResStyle.css");
 
 @tailwind base;
 @tailwind components;
